@@ -1,3 +1,4 @@
+set encoding=utf-8
 set clipboard+=unnamed
 set fenc=utf-8
 set showcmd
@@ -7,8 +8,6 @@ set statusline+=[%{has('multi_byte')&&\&fileencoding!=''?&fileencoding:&encoding
 set statusline+=%<%F
 set ruler
 set number
-set encoding=utf-8
-set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 set expandtab
 set ignorecase
 set smartcase
