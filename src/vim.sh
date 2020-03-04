@@ -1,2 +1,1 @@
 cp ./.vimrc ~/
-cp ./.gvimrc ~/
